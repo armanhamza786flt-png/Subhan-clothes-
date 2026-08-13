@@ -1,1 +1,60 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subhan Clothes | Luxury Fashion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>SUBHAN CLOTHES</h1>
+    <p>Luxury Fashion Collection</p>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Premium Style For Everyone</h2>
+    <p>Elegant Clothes • Luxury Designs • Best Quality</p>
+    <button onclick="shop()">Explore Collection</button>
+</section>
+
+<section class="products">
+
+<div class="card">
+    <img src="https://via.placeholder.com/250" alt="Suit">
+    <h3>Luxury Men's Suit</h3>
+    <p>Rs. 15,000</p>
+    <button onclick="cart()">Add To Cart</button>
+</div>
+
+<div class="card">
+    <img src="https://via.placeholder.com/250" alt="Dress">
+    <h3>Royal Women's Dress</h3>
+    <p>Rs. 20,000</p>
+    <button onclick="cart()">Add To Cart</button>
+</div>
+
+<div class="card">
+    <img src="https://via.placeholder.com/250" alt="Kids">
+    <h3>Premium Kids Wear</h3>
+    <p>Rs. 8,000</p>
+    <button onclick="cart()">Add To Cart</button>
+</div>
+
+</section>
+
+<footer>
+    <h3>Subhan Clothes</h3>
+    <p>© 2026 Luxury Fashion Store</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
