@@ -1,1 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Georgia',serif;
+}
 
+body{
+    background:#111;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:30px;
+    background:#000;
+}
+
+header h1{
+    font-size:45px;
+    letter-spacing:5px;
+}
+
+nav{
+    margin-top:20px;
+}
+
+nav a{
+    color:#d4af37;
+    text-decoration:none;
+    margin:15px;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(#222,#000);
+}
+
+.hero h2{
+    font-size:40px;
+    color:#d4af37;
+}
+
+button{
+    margin-top:20px;
+    padding:12px 30px;
+    background:#d4af37;
+    color:black;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.products{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:50px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#222;
+    width:280px;
+    padding:20px;
+    text-align:center;
+    border:1px solid #d4af37;
+    border-radius:10px;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.card h3{
+    color:#d4af37;
+    margin:15px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#000;
+}
